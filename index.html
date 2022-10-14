@@ -9,30 +9,64 @@
 </head>
 
 <body>
-    <h1>Perfil de Emiliano Frese</h1>
+    <div class="container">
+        <h1>Perfil de Emiliano Frese</h1>
+        <img src="https://picsum.photos/300" alt="random-source">
+        <ul>
+            <li>Datos Personales:
+                <ul>
+                    <li>Nombres: Emiliano Martin</li>
+                    <li>Apellidos: Dominguez Frese</li>
+                    <li>Edad: 29</li>
+                    <li>Ciudad: Ensenada, Buenos Aires</li>
+                </ul>
+            </li>
+            <li>Links de contacto:
+                <ul>
+                    <li><a href="https://ar.linkedin.com/in/emiliano-frese-2a7695158">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/emilianofrese">Twitter</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p>En el 2010 arranque Ing Civil, y al tercer año deje la carrera porque nunca me terminó de convencer. Desde
+            ahí en
+            adelante, estuve buscando que hacer. Hasta el día de hoy, trabajo en un gimnasio (casi 5 años en el mismo)
+            como
+            encargado. Es otra de las cosas que me apasiona (el entrenamiento).
+            Y el desarrollo entró en pandemia, gracias a mi pareja y una pareja amiga. Hoy en día, ya me encuentro
+            buscando
+            crecer para incertarme en el mundo IT.
+        </p>
 
-    <img src="https://picsum.photos/300" alt="">
-
-    <ul>
-        <li>Datos Personales:
-            <ul>
-                <li>Nombres: Emiliano Martin</li>
-                <li>Apellidos: Dominguez Frese</li>
-                <li>Edad: 29</li>
-                <li>Ciudad: Ensenada, Buenos Aires</li>
-            </ul>
-        </li>
-        <li>Links de contacto:
-            <ul>
-                <li><a href="https://ar.linkedin.com/in/emiliano-frese-2a7695158">LinkedIn</a></li>
-                <li><a href="https://twitter.com/emilianofrese">Twitter</a></li>
-            </ul>
-        </li>
-    </ul>
-
-    <p>En el 2010 arranque Ing Civil, y al tercer año deje la carrera porque nunca me terminó de convencer. Desde ahí en adelante, estuve buscando que hacer. Hasta el día de hoy, trabajo en un gimnasio (casi 5 años en el mismo) como encargado. Es otra de las cosas que me apasiona (el entrenamiento). 
-        Y el desarrollo entró en pandemia, gracias a mi pareja y una pareja amiga. Hoy en día, ya me encuentro buscando crecer para incertarme en el mundo IT.
-    </p>
+        <h2>Formulario de contacto</h2>
+        <form>
+            <label for="name"> 
+                Nombre:
+                <input type="text" name="name" id="name">
+            </label>
+            <br>
+            <br>
+            <label for="cellphone">
+                Telefono/Celular:
+                <input type="tel" name="email" id="cellphone">
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email">
+            </label>
+            <br>
+            <br>
+            <label for="message">
+                Mensaje:
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </label>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 
 </html>
