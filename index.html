@@ -6,41 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Perfil</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <div class="container">
         <h1>Perfil de Emiliano Frese</h1>
         <img src="https://picsum.photos/300" alt="random-source">
-        <ul>
-            <li>Datos Personales:
-                <ul>
-                    <li>Nombres: Emiliano Martin</li>
-                    <li>Apellidos: Dominguez Frese</li>
-                    <li>Edad: 29</li>
-                    <li>Ciudad: Ensenada, Buenos Aires</li>
-                </ul>
-            </li>
-            <li>Links de contacto:
-                <ul>
-                    <li><a href="https://ar.linkedin.com/in/emiliano-frese-2a7695158">LinkedIn</a></li>
-                    <li><a href="https://twitter.com/emilianofrese">Twitter</a></li>
-                </ul>
-            </li>
-        </ul>
-        <p>En el 2010 arranque Ing Civil, y al tercer año deje la carrera porque nunca me terminó de convencer. Desde
-            ahí en
-            adelante, estuve buscando que hacer. Hasta el día de hoy, trabajo en un gimnasio (casi 5 años en el mismo)
-            como
-            encargado. Es otra de las cosas que me apasiona (el entrenamiento).
-            Y el desarrollo entró en pandemia, gracias a mi pareja y una pareja amiga. Hoy en día, ya me encuentro
-            buscando
-            crecer para incertarme en el mundo IT.
-        </p>
+        <div class="listContainer">
+            <ul class="dataList">
+                <li>Datos Personales:
+                    <ul class="personalData">
+                        <li>Nombres: Emiliano Martin</li>
+                        <li>Apellidos: Dominguez Frese</li>
+                        <li>Edad: 29</li>
+                        <li>Ciudad: Ensenada, Buenos Aires</li>
+                    </ul>
+                </li>
+                <li>Links de contacto:
+                    <ul class="contactInfo">
+                        <li><a href="https://ar.linkedin.com/in/emiliano-frese-2a7695158">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/emilianofrese">Twitter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="summaryContainer">
+            <p>En el 2010 arranque Ing Civil, y al tercer año deje la carrera porque nunca me terminó de convencer.
+                Desde
+                ahí en
+                adelante, estuve buscando que hacer. Hasta el día de hoy, trabajo en un gimnasio (casi 5 años en el
+                mismo)
+                como
+                encargado. Es otra de las cosas que me apasiona (el entrenamiento).
+                Y el desarrollo entró en pandemia, gracias a mi pareja y una pareja amiga. Hoy en día, ya me encuentro
+                buscando
+                crecer para incertarme en el mundo IT.
+            </p>
+        </div>
 
         <h2>Formulario de contacto</h2>
-        <form>
-            <label for="name"> 
+        <form class="formContainer">
+            <label for="name">
                 Nombre:
                 <input type="text" name="name" id="name">
             </label>

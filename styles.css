@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+}
+
+.listContainer, .summaryContainer, .formContainer {
+    background-color: #003049;
+    color: #edede9;
+    border-radius: 1rem;
+    min-width: 30rem;
+    max-width: 50rem;
+}
+
+.listContainer, .summaryContainer {
+    text-align: left,
+}
+
+.dataList li {
+    list-style: none;
+}
+
+.dataList a {
+    text-decoration: none;
+    color: #edede9
+}
+
+.personalData , .contactInfo, .formContainer button{
+    background-color: #8338ec;
+    border-radius: 1rem;
+}
+.personalData , .contactInfo {
+    width: 40%;
+}
+.summaryContainer {
+    line-height: 30px;
+}
+
+.formContainer input, .formContainer textarea{
+    border: none;
+}   
