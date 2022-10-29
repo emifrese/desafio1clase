@@ -1,15 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif
 }
 
 h1, h2 {
+    font-family: 'Roboto';
     font-weight: 700
+}
+
+h1 {
+    border: 1px solid #131415;
+    margin: 0;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #123456;
+    color: #fff;
 }
 
 .container {
     text-align: center;
+    padding-top: 100px;
 }
 
 .listContainer, .summaryContainer, .formContainer {
@@ -18,6 +32,8 @@ h1, h2 {
     border-radius: 1rem;
     min-width: 30rem;
     max-width: 50rem;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .listContainer, .summaryContainer {
@@ -34,8 +50,12 @@ h1, h2 {
 }
 
 .personalData , .contactInfo, .formContainer button{
+    font-size: 1rem;
     background-color: #8338ec;
     border-radius: 1rem;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
 }
 .personalData , .contactInfo {
     width: 40%;
